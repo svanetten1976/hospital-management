@@ -1,0 +1,25 @@
+
+.form-wrapper {
+  width: 100%;
+  min-width: 800px;
+
+  .form-row {
+    width: 100%;
+    display: flex;
+
+    > div {
+      flex-basis: 50%;
+      max-width: calc(50% - 40px);
+      margin: 20px;
+    }
+
+    &.form-row-wide {
+      > div {
+        flex-basis: 100%;
+        max-width: calc(100% - 40px);
+      }
+    }
+
+  }
+
+}
